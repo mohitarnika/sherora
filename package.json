@@ -4,6 +4,7 @@
   "private": true,
   "description": "Sherora Flowers opening announcement for Gwalior, Madhya Pradesh.",
   "scripts": {
+    "build:pages": "mkdir -p public && cp -R index.html _headers assets public/",
     "test": "node --test test/*.test.cjs",
     "serve": "python3 -m http.server 8123"
   }
