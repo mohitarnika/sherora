@@ -1,0 +1,10 @@
+{
+  "name": "sherora-flowers-launch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sherora Flowers opening announcement for Gwalior, Madhya Pradesh.",
+  "scripts": {
+    "test": "node --test test/*.test.cjs",
+    "serve": "python3 -m http.server 8123"
+  }
+}
